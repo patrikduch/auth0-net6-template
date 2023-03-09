@@ -1,0 +1,15 @@
+Auth0Net6Template.API/bin
+Auth0Net6Template.API/obj
+Auth0Net6Template.Application/bin
+Auth0Net6Template.Application/obj
+Auth0Net6Template.Domain/bin
+Auth0Net6Template.Domain/obj
+Auth0Net6Template.Infrastructure/bin
+Auth0Net6Template.Infrastructure/obj
+Auth0Net6Template.Persistence/bin
+Auth0Net6Template.Persistence/obj
+.vs/
+bin/
+obj/
+.env/
+.idea/

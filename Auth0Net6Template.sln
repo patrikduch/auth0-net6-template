@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth0Net6Template.API", "Auth0Net6Template.API\Auth0Net6Template.API.csproj", "{170157F8-FE7B-4B52-B93F-4B13E4B33AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0Net6Template.Application", "Auth0Net6Template.Application\Auth0Net6Template.Application\Auth0Net6Template.Application.csproj", "{00981593-B830-4BC9-A339-C3245F58FABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0Net6Template.Domain", "Auth0Net6Template.Domain\Auth0Net6Template.Domain\Auth0Net6Template.Domain.csproj", "{F740DA04-6515-4C63-9A05-D755A4FDB56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0Net6Template.Infrastructure", "Auth0Net6Template.Infrastructure\Auth0Net6Template.Infrastructure\Auth0Net6Template.Infrastructure.csproj", "{12DA6969-D593-42A0-BF00-E5928B1B0CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0Net6Template.Persistence", "Auth0Net6Template.Persistence\Auth0Net6Template.Persistence\Auth0Net6Template.Persistence.csproj", "{E3626DB7-6ACA-405C-A631-7D3A1003C14B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{10CF56CB-F0F1-49FE-A192-D7B9F7D19EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{170157F8-FE7B-4B52-B93F-4B13E4B33AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170157F8-FE7B-4B52-B93F-4B13E4B33AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170157F8-FE7B-4B52-B93F-4B13E4B33AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170157F8-FE7B-4B52-B93F-4B13E4B33AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00981593-B830-4BC9-A339-C3245F58FABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00981593-B830-4BC9-A339-C3245F58FABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00981593-B830-4BC9-A339-C3245F58FABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00981593-B830-4BC9-A339-C3245F58FABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F740DA04-6515-4C63-9A05-D755A4FDB56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F740DA04-6515-4C63-9A05-D755A4FDB56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F740DA04-6515-4C63-9A05-D755A4FDB56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F740DA04-6515-4C63-9A05-D755A4FDB56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DA6969-D593-42A0-BF00-E5928B1B0CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DA6969-D593-42A0-BF00-E5928B1B0CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DA6969-D593-42A0-BF00-E5928B1B0CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DA6969-D593-42A0-BF00-E5928B1B0CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3626DB7-6ACA-405C-A631-7D3A1003C14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3626DB7-6ACA-405C-A631-7D3A1003C14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3626DB7-6ACA-405C-A631-7D3A1003C14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3626DB7-6ACA-405C-A631-7D3A1003C14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CF56CB-F0F1-49FE-A192-D7B9F7D19EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CF56CB-F0F1-49FE-A192-D7B9F7D19EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CF56CB-F0F1-49FE-A192-D7B9F7D19EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CF56CB-F0F1-49FE-A192-D7B9F7D19EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B71B70E-1EB5-464C-A00A-6B649611BE6D}
+	EndGlobalSection
+EndGlobal

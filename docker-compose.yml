@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  auth0net6template.api:
+    image: ${DOCKER_REGISTRY-}auth0net6templateapi
+    build:
+      context: .
+      dockerfile: Auth0Net6Template.API/Dockerfile
